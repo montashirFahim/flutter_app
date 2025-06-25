@@ -29,13 +29,13 @@ This is a Flutter application. The app implements an authentication flow (login,
 ![Signup Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/signup.png)
 
 ### 🔐 Login Page
-![Login Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/login.png)
+![Login Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/login.png)
 
 ### 🔑 Forgot Password Page
-![Forgot Password Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/forgot_password.png)
+![Forgot Password Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/forgot_password.png)
 
 ### 📰 Feed Page
-![Feed Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/feed.png)
+![Feed Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/feed.png)
 
 ## Setup Instructions
 
