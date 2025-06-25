@@ -48,7 +48,7 @@ This is a Flutter application. The app implements an authentication flow (login,
    ```bash
    git clone https://github.com/montashirFahim/flutter_app.git
    cd flutter_app
- ````
+   ```
 
 3. **Install Dependencies**:
 
