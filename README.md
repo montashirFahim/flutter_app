@@ -1,14 +1,14 @@
 # Lii Lab Mobile Developer Assessment
 
-This is a Flutter application developed for the Lii Lab Mobile Developer Assessment. The app implements an authentication flow (login, signup, forgot password) and a feed screen where users can view, create, like, and comment on posts. The backend is simulated using mock data and in-memory repositories.
+This is a Flutter application. The app implements an authentication flow (login, signup, forgot password) and a feed screen where users can view, create, like, and comment on posts. The backend is simulated using mock data and in-memory repositories.
 
 ## Features
 - **Authentication**:
-  - Login with email and password
-  - Sign-up with name, username, email, password, date of birth, and gender
+  - Log in with email and password
+  - Sign up with name, username, email, password, date of birth, and gender
   - Forgot password functionality with mock email validation
   - Comprehensive form validation for all inputs
-  - Authentication enforced to restrict Feed screen access to logged-in users
+  - Authentication is enforced to restrict Feed screen access to logged-in users
 - **Feed Screen**:
   - View a list of posts with author name, content, likes, and comments
   - Create new posts
@@ -19,7 +19,7 @@ This is a Flutter application developed for the Lii Lab Mobile Developer Assessm
   - State management using Flutter Bloc
   - Dependency injection with GetIt
 - **Responsive Design**:
-  - UI adapts to various screen sizes with consistent layout
+  - UI adapts to various screen sizes with a consistent layout
 - **Mock Backend**:
   - Simulated API calls with in-memory data using mock repositories
 
@@ -31,8 +31,9 @@ This is a Flutter application developed for the Lii Lab Mobile Developer Assessm
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/project_1.git
-   cd project_1
+   git clone https://github.com/montashirFahim/flutter_app.git
+   cd flutter_app
+
    ```
 
 3. **Install Dependencies**:
@@ -52,7 +53,6 @@ This is a Flutter application developed for the Lii Lab Mobile Developer Assessm
    - Or create a new account using the sign-up form.
 
 ## Assumptions
-- **Figma Design**: Since the Figma link was not provided, I designed a clean, modern UI based on standard authentication and social media feed patterns, ensuring responsiveness and usability.
 - **Backend Absence**: All data operations (authentication, posts, likes, comments) are handled in-memory using mock repositories with simulated network delays to mimic API behavior.
 - **Optional Features**: Implemented all optional features:
   - Liking posts
@@ -72,7 +72,7 @@ This is a Flutter application developed for the Lii Lab Mobile Developer Assessm
 - **Dart**: For application logic
 
 ## Testing
-- **Manual Testing**: Tested on Android and iOS emulators to ensure responsiveness and functionality.
+- **Manual Testing**: Tested on Chrome to ensure responsiveness and functionality.
 - **Edge Cases**:
   - Invalid email/password during login
   - Duplicate email during signup
@@ -87,11 +87,11 @@ This is a Flutter application developed for the Lii Lab Mobile Developer Assessm
 - `lib/main.dart`: Application entry point
 
 ## Submission
-- Repository: [GitHub Repository Link]
+- Repository: [https://github.com/montashirFahim/flutter_app]
 - Deadline: 11:59 PM, June 25, 2025
 
 ## Contact
-For any queries, please reach out to the Lii Lab team.
+For any queries, please reach out to montashirfahim25@gmail.com
 
 ---
 Developed by: A. S. M. Montashir Fahim
