@@ -27,7 +27,34 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: '/login',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          brightness: Brightness.dark, // Dark theme
+          scaffoldBackgroundColor: Colors.grey[900], // Dark background
+          textTheme: const TextTheme(
+            headlineMedium: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+            bodyMedium: TextStyle(color: Colors.white70),
+          ),
+          elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ElevatedButton.styleFrom(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              padding: const EdgeInsets.symmetric(vertical: 12),
+            ),
+          ),
+          inputDecorationTheme: InputDecorationTheme(
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+            labelStyle: const TextStyle(color: Colors.white70),
+            filled: true,
+            fillColor: Colors.grey[800],
+          ),
+        ),
+        initialRoute:
+            '/signup', // Starting with signup page as per your request
         routes: {
           '/login': (context) => const LoginPage(),
           '/signup': (context) => const SignUpPage(),

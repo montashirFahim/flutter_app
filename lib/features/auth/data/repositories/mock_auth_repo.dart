@@ -1,4 +1,3 @@
-// lib/features/auth/data/repositories/mock_auth_repo.dart
 import 'package:app_1/core/util/mock_data.dart';
 import 'package:app_1/features/auth/data/models/app_user_model.dart';
 import 'package:app_1/features/auth/domain/entities/app_user.dart';
@@ -10,7 +9,7 @@ class MockAuthRepo implements AuthRepo {
 
   @override
   Future<AppUser?> loginWithEmailPassword(String email, String password) async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 1));
     final userData = mockUsers.firstWhere(
       (user) => user['email'] == email && user['password'] == password,
       orElse: () => {},
@@ -31,7 +30,7 @@ class MockAuthRepo implements AuthRepo {
     String? dob,
     String? gender,
   }) async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 1));
     if (mockUsers.any((user) => user['email'] == email)) {
       throw Exception('Email already exists');
     }
@@ -50,19 +49,19 @@ class MockAuthRepo implements AuthRepo {
 
   @override
   Future<void> logout() async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 1));
     _currentUser = null;
   }
 
   @override
   Future<AppUser?> getCurrentUser() async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 1));
     return _currentUser;
   }
 
   @override
   Future<void> forgotPassword(String email) async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 1));
     if (!mockUsers.any((user) => user['email'] == email)) {
       throw Exception('Email not found');
     }
