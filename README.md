@@ -26,16 +26,16 @@ This is a Flutter application. The app implements an authentication flow (login,
 ## 📸 Screenshots
 
 ### 📝 Signup Page
-![Signup Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/assets/screens/signup.png)
+![Signup Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/signup.png)
 
 ### 🔐 Login Page
-![Login Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/assets/screens/login.png)
+![Login Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/login.png)
 
 ### 🔑 Forgot Password Page
-![Forgot Password Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/assets/screens/forgot_password.png)
+![Forgot Password Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/forgot_password.png)
 
 ### 📰 Feed Page
-![Feed Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/main/assets/screens/feed.png)
+![Feed Page](https://raw.githubusercontent.com/montashirFahim/flutter_app/feed.png)
 
 ## Setup Instructions
 
