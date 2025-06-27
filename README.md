@@ -1,5 +1,4 @@
-# Lii Lab Mobile Developer Assessment
-
+# Social Media Demo Application
 This is a Flutter application. The app implements an authentication flow (login, signup, forgot password) and a feed screen where users can view, create, like, and comment on posts. The backend is simulated using mock data and in-memory repositories.
 
 ## Features
@@ -110,10 +109,9 @@ This is a Flutter application. The app implements an authentication flow (login,
 * `lib/features/feed/`: Feed-related code (posts, likes, comments)
 * `lib/main.dart`: Application entry point
 
-## Submission
-
-* Repository: \[[https://github.com/montashirFahim/flutter\_app](https://github.com/montashirFahim/flutter_app)]
-* Deadline: 11:59 PM, June 25, 2025
+## Further Work
+* Develop Backend.
+* Integrate Firebase at the Backend.
 
 ## Contact
 
